@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+}
+
+a{
+    color: inherit;
+}
+
+body{
+    background-color: rgb(226, 224, 224);
+}
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background-color: red; */
+}
+
+.menu{
+    background-color: white;
+    padding: 10px;
+    color: #f54d30;
+}
+
+header{
+    height: 700px;
+    background-image: url("../img/imagens/london.jpg");
+}
+
+.topo .tab{
+    position: absolute;
+    top: 250;
+    right: 280px;
+    background-color: white;
+    width: 800px;
+}
+
+.tab li{
+    display: inline;
+    padding: 80px;
+    margin: 8px;
+    color: white;
+}
+
+.tab .btnList{
+    background-color: black;
+}
+
+.btn{
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    width: 32%;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.btn:first-of-type{
+    background-color: #f54d30;
+}
+
+.tab input{
+    display: inline;
+}
+
+.tab .conteudo{
+    padding: 20px;
+}
+
+.frmAlign{
+    display: flex;
+    padding: 10px 0px;
+}
+
+input{
+    border: 1px solid #919191;
+    height: 45px;
+    width: 100%;
+    margin: 10px 0px;
+    color: #919191;
+    text-indent: 5px;
+}
+
+.frmLeft{
+width: 50%;
+padding: 10px 0px;
+}
+
+.frmAlign input{
+    display: block;
+    width: 100%;
+}
+
+.frmRight{
+    padding: 10px;
+    width: 50%;
+}
+
+.tab button{
+    background-color: #606060;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.imagens{
+    display: flex;
+}
+
+.img1{
+    width: 50%;
+}
+
+.img2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.img1 img{
+    width: 100%;
+    margin: 8px 8px 0px 0px;
+}
+
+.img2 img{
+    margin: 8px 0px 0px 8px;
+    width: 250px;
+    height: 213px; 
+}
+
+.img{
+    position: relative;
+    color: white;
+}
+
+.img img{
+}
+
+.texto{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sec01, .sec02, .sec03, .sec04{
+    margin-top: 30px;
+}
+
+.sec01 h2, .sec02 h2 , .sec02 h5, .sec03 h2, .sec04 h2{
+    margin-bottom: 20px;
+}
+
+.card{
+    max-width: 50%;
+    height: 450px;
+    margin: 5px;
+    background-color: white;
+}
+
+.card .card-img img{
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+}
+
+.card .card-content{
+    padding: 10px 20px;
+}
+
+.card h1, .sec03 h1{
+    margin: 5px 0px 20px 0px;
+}
+
+.card h5{
+    margin: 10px 0px 10px 0px;
+    color: #919191;
+}
+
+.card h4, .sec03 h5{
+    margin: 10px 0px 20px 0px;
+}
+
+.card span{
+    margin-left: 10px;
+}
+
+.sec03 .container{
+    background-color: #4e4e4e;
+    padding: 20px;
+    color: white;
+}
+
+.sec03 .container input{
+    display: block;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.sec03 .container button{
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: rgb(253, 141, 129);
+}
+
+.sec04 h4:first-of-type{
+    margin: 20px 0px 20px 0px;
+}
+
+.sec04 .iconContact h4{
+    margin: 1px 0px;
+}
+.sec04 button{
+    border: none;
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
+
+footer{
+    color: #919191;
+    padding: 30px;
+    height: 50px;
+    text-align: center;
+}
+
+footer h4,  footer span{
+    margin: 15px 0px;
+}
+
+footer .media{
+    margin: 25px 0px;
+}
+
+footer span{
+    padding: 20px;
+}
+
+.media img{
+    width: 30px;
+}
